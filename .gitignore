@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+
+# Logs / temporary output
+*.log
+tmp/
+temp/
+
+# Large generated experiment outputs
+results/generated/
+outputs/generated/
+figures/generated/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Secrets / local configuration
+.env
+.env.*
+secrets.*
+*.pem
+*.key
+
+# Personal / manuscript working files
+private/
+reviewer_correspondence/
+manuscripts/drafts/

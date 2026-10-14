@@ -1,0 +1,11 @@
+# Core scientific Python dependencies used by the RT-DASH / AI-DASH research workflow.
+# Versions are intentionally left unpinned here because the exact historical environment
+# must be copied from the validated project before claiming byte-for-byte reproducibility.
+
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+torch
+matplotlib
