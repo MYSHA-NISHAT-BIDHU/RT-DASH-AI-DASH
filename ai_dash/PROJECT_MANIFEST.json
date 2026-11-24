@@ -1,0 +1,113 @@
+{
+  "project": "RT-DASH final simulation-only two-paper research project",
+  "project_version": "3.3-2026-11-06-finalized-simulation-only",
+  "freeze_date": "2026-08-06",
+  "hardware_used_for_reported_results": false,
+  "authoritative_implementations": [
+    "research/rt_dash",
+    "research/scripts",
+    "research_cpp"
+  ],
+  "legacy_source_preserved_for_provenance": [
+    "src",
+    "include",
+    "rtos",
+    "Simulation.py",
+    "docs",
+    "README_LEGACY.md",
+    "Makefile.legacy"
+  ],
+  "selected_deterministic_configuration": {
+    "utilization_high": 0.9,
+    "utilization_low": 0.8,
+    "entry_hold_ms": 200,
+    "recovery_hold_ms": 500,
+    "observation_window_ms": 1000,
+    "smoothing_samples": 5
+  },
+  "selected_period_completion_configuration": {
+    "period_stretch_factor": 1.5,
+    "period_shrink_factor": 0.5,
+    "period_recovery_window_ms": 1000,
+    "test_used_for_selection": false
+  },
+  "evidence_counts": {
+    "principal_and_robustness_deterministic_simulations": 15780,
+    "simulation_completion_stress_simulations": 2340,
+    "locked_ai_scheduler_simulations": 630,
+    "arima_lstm_scheduler_validation_test_simulations": 1686,
+    "advanced_arima_lstm_scheduler_simulations": 5724,
+    "total_scheduler_simulations": 26160,
+    "cpp_host_policy_runs": 5,
+    "python_tests": 48,
+    "independent_result_verifiers": 8,
+    "principal_ai_samples": 104750,
+    "principal_heldout_ai_samples": 20670,
+    "ai_rolling_origin_folds": 9,
+    "correlated_sensor_group_failures": 7,
+    "single_sensor_failure_cases": 29,
+    "host_benchmark_trials": 25,
+    "host_benchmark_inferences_per_trial": 1000000,
+    "arima_lstm_train_examples": 11033,
+    "arima_lstm_validation_examples": 4320,
+    "arima_lstm_test_examples": 4043,
+    "advanced_arima_lstm_rolling_origin_folds": 8,
+    "advanced_prediction_fault_cases": 7
+  },
+  "authoritative_result_directories": [
+    "research/results/best_journal",
+    "research/results/simulation_completion",
+    "research/results/ai_extension",
+    "research/results/ai_early_warning",
+    "research/results/ai_generalization",
+    "research/results/arima_lstm_thesis",
+    "research/results/arima_lstm_advanced",
+    "research/results/ai_host_benchmark"
+  ],
+  "primary_reports": [
+    "research/docs/FINAL_PROJECT_AUDIT_2026-08-06.md",
+    "research/docs/THESIS_TO_FINAL_PROJECT_TRACEABILITY_2026-08-06.md",
+    "research/docs/SIMULATION_ONLY_FINAL_SCOPE_2026-08-06.md",
+    "research/docs/IEEE_SUBMISSION_READINESS_2026-08-06.md",
+    "research/docs/ARIMA_LSTM_ADVANCED_MODEL_CARD_2026-08-06.md",
+    "research/docs/ARIMA_LSTM_ADVANCED_POST_LOCK_GOVERNANCE_2026-08-06.md",
+    "research/papers/PAPER1_IEEE_EVIDENCE_MAP.md",
+    "research/papers/PAPER2_IEEE_EVIDENCE_MAP.md",
+    "research/papers/REPRODUCIBILITY_CERTIFICATE_2026-08-06.md",
+    "research/results/arima_lstm_thesis/ARIMA_LSTM_THESIS_VALIDATION_REPORT.md",
+    "research/results/arima_lstm_advanced/ARIMA_LSTM_ADVANCED_VALIDATION_REPORT.md",
+    "PROJECT_COMPLETION_REPORT_2026-08-06_ARIMA_LSTM_ADVANCED.md",
+    "FINAL_PRE_SUBMISSION_VALIDATION_2026-08-06.md"
+  ],
+  "final_validation": {
+    "deterministic_verifier": "PASS",
+    "principal_ai_verifier": "PASS",
+    "early_warning_verifier": "PASS",
+    "host_benchmark_verifier": "PASS",
+    "simulation_completion_verifier": "PASS",
+    "ai_generalization_verifier": "PASS",
+    "arima_lstm_thesis_verifier": "PASS",
+    "arima_lstm_advanced_verifier": "PASS",
+    "python_compileall": "PASS",
+    "validation_date": "2026-08-06"
+  },
+  "evidence_scope": "single-core software simulation and host-software validation only; no physical hardware, WCET, energy, certification, or universal schedulability claim",
+  "paper_split": {
+    "paper_1": "deterministic RT-DASH framework and recovery-aware service control",
+    "paper_2": "thesis-faithful ARIMA/LSTM prediction plus leakage-controlled AI and deterministic runtime assurance"
+  },
+  "external_or_author_controlled_items": [
+    "author names, affiliations, ORCIDs and contribution roles",
+    "funding, conflict and AI-use declarations",
+    "repository/DOI deposition if required by the target journal",
+    "independent external dataset if a broader AI generalization claim is desired"
+  ],
+  "finalization_date": "2026-11-06",
+  "finalization_note": "Scientific result archives unchanged; C++ Release-mode test harness repaired so checks cannot be compiled out; unified verification/reproduction entry points added.",
+  "finalization_artifacts": [
+    "PROJECT_FINALIZATION_2026-11-06.md",
+    "FINAL_VERIFICATION_2026-11-06.log",
+    "verify_complete_project.sh",
+    "reproduce_paper2.sh"
+  ]
+}

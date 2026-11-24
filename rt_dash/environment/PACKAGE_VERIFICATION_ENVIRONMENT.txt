@@ -1,0 +1,12 @@
+Final package verification environment
+Date: 2026-08-28
+Python: 3.12.13
+NumPy: 2.3.5
+pandas: 2.2.3
+Matplotlib: 3.10.8
+SciPy: 1.17.0
+pytest: 9.0.2
+CMake: 3.31.6
+g++: 13.3.0
+
+The principal seed-clustered outputs were regenerated in this environment and matched the manuscript values. C++17 tests and the host simulation were compiled from clean source with warning flags enabled. Archived firmware images and their recorded hashes, ELF architecture, symbol records, and artifact inventories were checked, but firmware was not rebuilt because the cross-toolchain and QEMU were unavailable and the package intentionally excludes upstream FreeRTOS kernel source. This environment record does not replace the original execution-environment record above.

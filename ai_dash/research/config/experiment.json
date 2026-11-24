@@ -1,0 +1,63 @@
+{
+  "controlled": {
+    "duration_ms": 60000,
+    "target_utilizations": [
+      0.6,
+      0.8,
+      0.95,
+      1.1,
+      1.25
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "emergency_release_times_ms": [
+      15000,
+      40000
+    ]
+  },
+  "rt_dash": {
+    "observation_window_ms": 1000,
+    "monitor_interval_ms": 100,
+    "smoothing_samples": 5,
+    "utilization_high": 0.85,
+    "utilization_low": 0.65,
+    "entry_hold_ms": 200,
+    "recovery_hold_ms": 1000
+  },
+  "trace": {
+    "window_rows": 600,
+    "start_rows": [
+      0,
+      160400,
+      963496
+    ],
+    "time_scale_ms_per_row": 100,
+    "load_scales": [
+      0.8,
+      1.0,
+      1.2
+    ],
+    "source": "../data/raw/smart_home_dataset.csv",
+    "window_selection": {
+      "0": "routine sleep window",
+      "160400": "sleep-to-anomaly transition window",
+      "963496": "mixed-activity window"
+    }
+  },
+  "metrics": {
+    "deadline_miss_denominator": "jobs whose completion or deadline is observable by the run horizon",
+    "response_time": "completion_time - release_time for completed jobs",
+    "completion_rate": "completed / released",
+    "processor_utilization": "executed processor time / simulated duration"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "study": "RT-DASH best-version simulation-only project",
+  "python": "3.13.5",
+  "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+  "duration_ms": 60000,
+  "quantum_ms": 10,
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "validation_seeds": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "heldout_test_seeds": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "candidate_configurations": 36,
+  "selected_configuration": {
+    "utilization_high": 0.9,
+    "utilization_low": 0.8,
+    "entry_hold": 200,
+    "recovery_hold": 500,
+    "observation_window": 1000,
+    "smoothing_samples": 5
+  },
+  "counts": {
+    "tuning_train": 2520,
+    "tuning_validation": 420,
+    "heldout_test": 420,
+    "demand_screen": 70,
+    "overhead_jitter": 960,
+    "external_edf_vd": 800,
+    "previous_strengthened_simulations": 8980,
+    "new_executed_simulations": 6800,
+    "cumulative_executed_simulations": 15780,
+    "full_matrix_optimized_variants": 1680,
+    "cpp_host_policy_runs": 5
+  }
+}

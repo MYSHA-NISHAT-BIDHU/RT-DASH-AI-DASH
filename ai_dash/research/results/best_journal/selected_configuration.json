@@ -1,0 +1,8 @@
+{
+  "utilization_high": 0.9,
+  "utilization_low": 0.8,
+  "entry_hold": 200,
+  "recovery_hold": 500,
+  "observation_window": 1000,
+  "smoothing_samples": 5
+}

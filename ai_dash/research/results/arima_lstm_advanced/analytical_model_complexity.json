@@ -1,0 +1,13 @@
+{
+  "evidence_type": "analytical counts only; not timing, WCET, MCU, energy, or hardware evidence",
+  "arima_order": [
+    5,
+    1,
+    0
+  ],
+  "arima_scalar_coefficients_all_resources": 24,
+  "tuned_lstm_hidden_units": 32,
+  "tuned_lstm_trainable_parameters": 4868,
+  "tuned_lstm_approx_matrix_multiplications_per_12_step_forecast": 55424,
+  "ridge_var_coefficients": 196
+}

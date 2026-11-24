@@ -1,0 +1,35 @@
+{
+  "study": "RT-DASH predeclared exploratory 60-second early-warning analysis",
+  "claim_status": "exploratory only; does not replace the locked current-state principal model",
+  "created_utc": "2026-08-05T06:13:07.623685+00:00",
+  "dataset_fingerprint": "613b396eecef819f1f403e98d4059b0eac3f101c90fe5112ea2a8d57a6808bfa",
+  "raw_file_sha256": "dcb873f7b7c74c0f1cc246d716d88865076c0ed25b89593b6c3448ded19aca8d",
+  "sample_period_seconds": 10,
+  "prediction_horizon_seconds": 60,
+  "purge_seconds": 300,
+  "partition_counts": {
+    "train": 60108,
+    "validation": 23972,
+    "test": 20670
+  },
+  "future_positive_rates": {
+    "train": 0.30004325547348104,
+    "validation": 0.4194476889704655,
+    "test": 0.6183841315916787
+  },
+  "selected_model": "current_sensor_logistic",
+  "validation_threshold": 0.011607173367617416,
+  "selection_uses_test": false,
+  "test_onset_episodes": 5,
+  "test_onsets_with_pre_window": 4,
+  "test_onsets_warned_before_onset": 4,
+  "pre_onset_warning_recall": 1.0,
+  "median_maximum_lead_seconds": 60.0,
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0"
+  }
+}

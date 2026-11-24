@@ -1,0 +1,26 @@
+{
+  "study": "RT-DASH portable AI host inference benchmark",
+  "scope": "measured on this host only; not an MCU/WCET claim",
+  "created_utc": "2026-08-05T06:10:04.434288+00:00",
+  "iterations_per_trial": 1000000,
+  "warmup_iterations": 100000,
+  "trials": 25,
+  "median_ns_per_inference": 50.399123,
+  "mean_ns_per_inference": 50.91287568,
+  "p05_ns_per_inference": 49.9185194,
+  "p95_ns_per_inference": 52.243646399999996,
+  "min_ns_per_inference": 49.809344,
+  "max_ns_per_inference": 56.162947,
+  "binary_size": {
+    "executable_bytes": 21136,
+    "text_bytes": 8561,
+    "data_bytes": 736,
+    "bss_bytes": 280
+  },
+  "header_sha256": "80abb210b9d67ac4ab089b297acfba24515a8a886b40fcfc4b0947dc09c1fcf9",
+  "source_sha256": "6043492c0b64d7ac8646c3d8c9af18092c8a4c61b5184a6b9154052d08d3783e",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "python": "3.12.13"
+}

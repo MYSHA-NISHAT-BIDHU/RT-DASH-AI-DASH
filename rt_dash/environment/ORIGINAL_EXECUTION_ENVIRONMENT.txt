@@ -1,0 +1,12 @@
+Recorded principal execution environment
+Python: 3.13.5
+NumPy: 2.3.5
+pandas: 2.2.3
+Matplotlib: 3.10.8
+SciPy: 1.17.0
+pytest: 9.0.2
+CMake: 3.31.6
+g++: 14.2.0
+Simulation quantum: 10 ms
+
+Source: manuscript environment statement and archived execution manifests.

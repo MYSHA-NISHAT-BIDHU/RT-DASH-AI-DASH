@@ -1,0 +1,34 @@
+{
+  "study": "RT-DASH journal-strengthened simulation V2",
+  "evidence_type": "software simulation only",
+  "duration_ms": 60000,
+  "quantum_ms": 10,
+  "drop_expired_jobs": true,
+  "seeds": {"start": 0, "count": 30},
+  "policies": [
+    "edf",
+    "rms",
+    "criticality_edf",
+    "rt_dash",
+    "rt_dash_no_hysteresis",
+    "rt_dash_no_degradation",
+    "rt_dash_no_event_trigger",
+    "rt_dash_no_load_trigger",
+    "rt_dash_no_recovery_hold"
+  ],
+  "rt_dash_nominal": {
+    "observation_window_ms": 1000,
+    "monitor_interval_ms": 100,
+    "smoothing_samples": 5,
+    "utilization_high": 0.85,
+    "utilization_low": 0.65,
+    "entry_hold_ms": 200,
+    "recovery_hold_ms": 1000
+  },
+  "statistics": {
+    "bootstrap_resamples": 10000,
+    "confidence_level": 0.95,
+    "paired_nonparametric_test": "Wilcoxon signed-rank",
+    "multiple_testing_correction": "Holm"
+  }
+}

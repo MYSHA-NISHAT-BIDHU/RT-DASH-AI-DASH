@@ -1,17 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this research software, please cite the RT-DASH paper and this repository."
-title: "RT-DASH / AI-DASH: Adaptive Real-Time Scheduling and Predictive Mode Entry"
+message: "For RT-DASH, cite the published paper. For AI-DASH, cite the software repository until the manuscript is published."
+title: "RT-DASH and AI-DASH: Adaptive Real-Time Scheduling Research Code"
 type: software
 authors:
   - family-names: "Bidhu"
     given-names: "Mysha Nishat"
-  - family-names: "Boudjadar"
-    given-names: "Jalil"
 repository-code: "https://github.com/MYSHA-NISHAT-BIDHU/RT-DASH-AI-DASH"
-license: "NOASSERTION"
 preferred-citation:
   type: article
-  title: "Workload- and Event-Adaptive Dual-Mode Scheduling with Recovery-Aware Service Control for Smart Home Controllers"
+  title: "Workload- and Event-Adaptive Dual-Mode Scheduling with Recovery-Aware Service Control for Smart-Home Controllers"
   authors:
     - family-names: "Bidhu"
       given-names: "Mysha Nishat"

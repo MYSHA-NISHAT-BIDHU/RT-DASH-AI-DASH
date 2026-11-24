@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rt-dash-research"
+version = "1.0.0"
+description = "Reproducible RT-DASH scheduling simulator and evaluation toolkit"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+  "scipy>=1.10",
+  "scikit-learn>=1.4",
+  "tabulate>=0.9",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["rt_dash"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

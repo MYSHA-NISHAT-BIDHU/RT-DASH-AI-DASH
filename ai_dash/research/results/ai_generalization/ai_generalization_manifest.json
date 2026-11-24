@@ -1,0 +1,18 @@
+{
+  "study": "post-lock AI temporal generalization and correlated failure",
+  "rolling_origin_folds": 9,
+  "rolling_origin_models": [
+    "current_sensor_logistic",
+    "extra_trees",
+    "hist_gradient_boosting",
+    "temporal_logistic"
+  ],
+  "rolling_origin_rows": 36,
+  "sensor_failure_groups": 7,
+  "principal_model_reselected": false,
+  "principal_threshold_changed": false,
+  "principal_scheduler_result_changed": false,
+  "principal_model_artifact": "results/ai_extension/selected_model.pkl",
+  "principal_selection_artifact": "results/ai_extension/model_selection.csv",
+  "hardware_used": false
+}

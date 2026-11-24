@@ -1,0 +1,44 @@
+{
+  "candidate_id": "s1.5_r0.50_w1000",
+  "period_stretch_factor": 1.5,
+  "period_shrink_factor": 0.5,
+  "period_recovery_window_ms": 1000,
+  "selection_rule": "minimum validation score: 100*high_DMR + capped_high_response/1000 + (1-capped_nominal_low_service)",
+  "train_seeds": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "validation_seeds": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "heldout_test_seeds": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59
+  ],
+  "test_used_for_selection": false
+}
