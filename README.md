@@ -2,7 +2,7 @@
 
 **Adaptive Real-Time Scheduling and Predictive Mode Entry for Resource-Constrained Intelligent Systems**
 
-This repository is the public research-artifact home for RT-DASH and AI-DASH, developed from MSc research at Aarhus University and subsequent research extensions.
+This repository is the planned research-artifact home for RT-DASH and AI-DASH, developed from MSc research at Aarhus University and subsequent research extensions. **Release status: documentation-only preparation; the validated source code is not yet included.**
 
 ## Overview
 
@@ -20,6 +20,9 @@ DOI: https://doi.org/10.3390/a19100863
 The published RT-DASH study reports 15,780 software-simulation runs.
 
 ## AI-DASH research extension
+
+**Manuscript status:** Submitted for peer review in 2026; not accepted or published. The AI-DASH methods and results below describe the reported research, not executable files currently in this repository.
+
 
 The AI-DASH research pipeline includes:
 
@@ -68,7 +71,7 @@ RT-DASH-AI-DASH/
 └── docs/
 ```
 
-The current public package contains documentation and repository scaffolding. The authoritative source files should be copied from the validated research project into the corresponding folders before the repository is described as fully reproducible.
+The current package contains documentation and repository scaffolding only. The authoritative source files must be copied from the validated research project into the corresponding folders, tested, and permission-checked before this repository is described as fully reproducible or made public as a software release.
 
 ## Reproducibility
 
@@ -87,6 +90,20 @@ Do not upload third-party data unless its license permits redistribution. Instea
 ## Citation
 
 See [`CITATION.cff`](CITATION.cff).
+
+## Public-release checklist
+
+- [x] Research overview, paper citation, limitations and directory layout
+- [x] Ignore rules for private notes, generated data and secrets
+- [ ] Import the **validated RT-DASH source and test suite** from the authoritative research archive
+- [ ] Import the **validated AI-DASH forecasting and scheduler-integration source and tests**
+- [ ] Add experiment configurations, reproducibility scripts, and approved figures/results
+- [ ] Verify dependency versions and reproduction commands on a clean environment
+- [ ] Check third-party dataset permissions, source ownership and explicit software license
+- [ ] Scan all committed files and Git history for sensitive or unpublished material
+- [ ] Confirm release readiness and switch GitHub visibility to public
+
+**Avoid uploading older thesis prototypes as the final paper implementation without a documented validation match.**
 
 ## Contact
 
